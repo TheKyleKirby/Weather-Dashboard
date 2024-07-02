@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col">
+        <h1>Weather Dashboard</h1>
+        <form id="search-form">
+          <div class="form-group">
+            <input type="text" class="form-control" id="city-input" placeholder="Enter city name">
+          </div>
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-4">
+        <h2>Search History</h2>
+        <ul id="search-history" class="list-group"></ul>
+      </div>
+      <div class="col-md-8">
+        <h2>Current Weather</h2>
+        <div id="current-weather"></div>
+        <h2 class="mt-4">5-Day Forecast</h2>
+        <div id="forecast" class="d-flex justify-content-between"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
