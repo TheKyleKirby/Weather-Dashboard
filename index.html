@@ -4,35 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
     <header>
         <h1>Weather Dashboard</h1>
+        <p>"Enter a city to get the current weather and 5-day forecast!"</p>
     </header>
     <main>
-        <section>
-            <div id="left-section">
-              <form id="city-search-form">
+        <div id="left-section">
+            <form id="city-search-form">
                 <label for="city-input">City:</label>
                 <input type="text" id="city-input" name="city-input">
                 <button type="submit">Search</button>
-              </form>
-              <div id="search-history"></div>
-            </div>
-        </section>
-        <div id ="right-section">
-        <section id="current-weather">
-            <h2>Current Weather</h2>
-        </section>
-        <section id="future-weather">
-             <h2>5-Day Forecast</h2>
-             <div id="forecast-day-1"></div>
-             <div id="forecast-day-2"></div>
-             <div id="forecast-day-3"></div>
-             <div id="forecast-day-4"></div>
-             <div id="forecast-day-5"></div>
-        </section>
+            </form>
+            <div id="search-history"></div>
+        </div>
+        <div id="right-section">
+            <section id="current-weather">
+                <h2>Current Weather</h2>
+            </section>
+            <section id="future-weather">
+                <h2>5-Day Forecast</h2>
+                <div id="forecast-day-1"></div>
+                <div id="forecast-day-2"></div>
+                <div id="forecast-day-3"></div>
+                <div id="forecast-day-4"></div>
+                <div id="forecast-day-5"></div>
+            </section>
         </div>
     </main>
     <script src="assets/script.js"></script>

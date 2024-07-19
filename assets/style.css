@@ -1,13 +1,113 @@
 body {
-    background-color: #f0f0f0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  margin: 0;
+  line-height: 1.6;
 }
 
-#forecast .card {
-    width: 18%;
-    background-color: #007bff;
-    color: white;
+header {
+  background: linear-gradient(to right, #74a8e2, #0886ee);
+  padding: 10px;
+  text-align: center;
+  color: white;
 }
 
-#search-history .list-group-item {
-    cursor: pointer;
+h1 {
+  font-size: 3.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+}
+
+#left-section {
+  flex: 1;
+  max-width: 25%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#city-search-form label,
+#city-search-form input,
+#city-search-form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#city-search-form input,
+#city-search-form button {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+#city-search-form button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#city-search-form button:hover {
+  background-color: #0078d7;
+}
+
+#search-history {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.search-result {
+  background-color: #ffeb3b;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-result:hover {
+  background-color: #4a90e2;
+  color: white;
+}
+
+#right-section {
+  flex: 3;
+  margin-left: 20px;
+}
+
+#current-weather,
+#future-weather {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#future-weather {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+#future-weather > div {
+  background-color: #e1f5fe;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
 }
