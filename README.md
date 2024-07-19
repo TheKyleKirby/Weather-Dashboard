@@ -17,6 +17,11 @@ Here is a screenshot of the application.
 
 Its as easy as typing in what city you want the forcast for, hit search, WHAMMY!
 
+## Credits
+
+Thank you to OpenWeather for providing this api. Here is a link to their homepage if you want to know more about them.
+https://openweathermap.org/ 
+
 ## Contact
 
 If you have any questions or want to see more of my work, click my github link: https://github.com/TheKyleKirby 
