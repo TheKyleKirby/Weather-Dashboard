@@ -17,6 +17,8 @@ Here is a screenshot of the application.
 
 Its as easy as typing in what city you want the forcast for, hit search, WHAMMY!
 
+Here is the deployed link: https://thekylekirby.github.io/Weather-Dashboard/ 
+
 ## Credits
 
 Thank you to OpenWeather for providing this api. Here is a link to their homepage if you want to know more about them.
